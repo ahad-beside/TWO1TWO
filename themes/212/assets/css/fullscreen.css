@@ -1,0 +1,13 @@
+.window-fullscreen{
+  position: absolute;float: right;
+  right: 0px;
+  top: 0px;
+}
+#fullscreen {
+	background: #fafafa;
+	color: inherit;	
+}
+.window-fullscreen{
+	margin-top: 10px;
+	margin-right: 10px;
+}

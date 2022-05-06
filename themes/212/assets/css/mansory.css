@@ -1,0 +1,69 @@
+.home_page_masonary{
+}
+#my-gallery-container {
+	background-color: #ededed;
+}
+.home_page_masonary .item{
+	text-align:center;
+}
+.home_page_masonary .item .img-responsive{
+	text-align:center;
+	display:inline;
+}
+.home_page_masonary .item {
+	width: 100%;
+	min-height: 100px;
+	margin: 0px 0px 20px 0px;
+	color:#333;
+	position:relative;
+	background-color:#f2f2f2;
+}
+.listPage .item{
+	margin-bottom:30px!important;
+}
+.home_page_masonary .item:hover {
+	opacity: 0.8;
+}
+.home_page_masonary .item p {
+	margin-bottom:0px!important;
+}
+.item.h150{
+	width: 100%;
+	min-height: 150px;
+}
+
+.item.h200{
+	width: 100%;
+
+}
+
+.item.h250{
+	width: 100%;
+	min-height: 200px;
+}
+.padding{
+	padding-bottom:20px
+}
+.masonary-overlay{
+	position:absolute;
+	bottom:0px;
+	background: -moz-linear-gradient(left center, transparent,  black) repeat scroll 0 0 transparent;
+	width:100%;
+	text-align:center;
+	font-size:22px;
+	padding:5px 0px;
+	font-weight:bold;
+}
+.c_title{
+	font-weight: bold;
+	font-size: 16px;
+}
+.des_title{
+	font-size:12px;
+	color:#6d6d6d;
+}
+.home_caption_dtls{
+	width:100%;
+	padding:8px 10px;
+	background-color:#f2f2f2;
+}

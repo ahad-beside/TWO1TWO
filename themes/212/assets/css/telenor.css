@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'Telenor';
+	src: url(../fonts/telenor-webfont.eot);
+	src: url(../fonts/telenor-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/telenor-webfont.woff) format('woff'), url(../fonts/telenor-webfont.ttf) format('truetype'), url(../fonts/telenor-webfont.svg#telenorregular) format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: 'Telenor';
+	src: url(../fonts/telenor-bold-hinted-webfont.eot);
+	src: url(../fonts/telenor-bold-hinted-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/telenor-bold-hinted-webfont.woff) format('woff'), url(../fonts/telenor-bold-hinted-webfont.ttf) format('truetype'), url(../fonts/telenor-bold-hinted-webfont.svg#telenorbold) format('svg');
+	font-weight: bold;
+	font-style: normal
+}
+@font-face {
+	font-family: 'Telenor';
+	src: url(../fonts/telenormedium-webfont.eot);
+	src: url(../fonts/telenormedium-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/telenormedium-webfont.woff) format('woff'), url(../fonts/telenormedium-webfont.ttf) format('truetype'), url(../fonts/telenormedium-webfont.svg#telenormedium) format('svg');
+	font-weight: 400;
+	font-style: normal
+}
+@font-face {
+	font-family: 'Telenor';
+	src:url(../fonts/telenor-bold-hinted-webfont.ttf)
+	src: url(../fonts/telenorlight-webfont.eot);
+	src: url(../fonts/telenorlight-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/telenorlight-webfont.woff) format('woff'), url(../fonts/telenorlight-webfont.ttf) format('truetype'), url(../fonts/telenorlight-webfont.svg#telenormedium) format('svg');
+	font-weight: 300;
+	font-style: normal
+}

@@ -1,0 +1,406 @@
+2019/01/29 11:11:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/post/update".' in /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/post/upda...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/arold/212/index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/arold/212/admin/post/update/3.html
+---
+2019/01/29 11:11:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/post/update".' in /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/post/upda...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/arold/212/index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/arold/212/admin/post/update/3.html
+---
+2019/01/29 11:11:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'two1two'' in /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/base/CApplication.php(459): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/db/ar/CActiveRecord.php(639): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/db/ar/CActiveRecord.php(672): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/db/ar/CActiveRecord.php(1463): CActiveRecord->getCommandBuilder()
+#7 /Applications/XAMPP/xamppfiles/htdocs/arold/212/protected/components/Controller.php(38): CActiveRecord->find()
+#8 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php(281): Controller->init()
+#9 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#10 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/arold/212/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/arold/212/admin
+---
+2019/01/29 11:11:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/post/update".' in /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/post/upda...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/arold/212/index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/arold/212/admin/post/update/3.html
+---
+2019/02/03 07:19:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'two1two'' in /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/base/CApplication.php(459): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/db/ar/CActiveRecord.php(639): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/db/ar/CActiveRecord.php(672): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/db/ar/CActiveRecord.php(1463): CActiveRecord->getCommandBuilder()
+#7 /Applications/XAMPP/xamppfiles/htdocs/arold/212/protected/components/Controller.php(38): CActiveRecord->find()
+#8 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php(281): Controller->init()
+#9 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#10 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/arold/212/index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/arold/212/
+---
+2019/02/25 04:53:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CController.php:486
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CController.php(270): CController->missingAction('view')
+#1 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#2 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/arold/212/index.php(33): CApplication->run()
+#5 {main}
+REQUEST_URI=/arold/212/site/favicon.ico
+---
+2019/02/25 04:53:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pages/img/login/bg2.jpg".' in /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/pages/im...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/arold/212/index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/arold/212/assets/pages/img/login/bg2.jpg
+HTTP_REFERER=http://192.168.0.110:8080/arold/212/site/login.html
+---
+2019/02/25 04:53:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pages/img/login/bg1.jpg".' in /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/pages/im...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/arold/212/index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/arold/212/assets/pages/img/login/bg1.jpg
+HTTP_REFERER=http://192.168.0.110:8080/arold/212/site/login.html
+---
+2019/02/25 04:53:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pages/img/login/bg3.jpg".' in /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/pages/im...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/arold/212/index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/arold/212/assets/pages/img/login/bg3.jpg
+HTTP_REFERER=http://192.168.0.110:8080/arold/212/site/login.html
+---
+2019/02/25 04:53:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/arold/212/index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/arold/212/favicon.ico
+---
+2019/02/25 04:53:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/favicon.ico".' in /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/favicon.i...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/arold/212/index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/arold/212/admin/favicon.ico
+---
+2019/02/25 06:31:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "favicon.ico".' in /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CController.php:486
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CController.php(270): CController->missingAction('favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php(282): CController->run('favicon.ico')
+#2 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/page/favi...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/arold/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/arold/212/index.php(33): CApplication->run()
+#5 {main}
+REQUEST_URI=/arold/212/admin/page/favicon.ico
+---
+2020/03/16 05:22:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in E:\aHaD_install\xampp5\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 E:\aHaD_install\xampp5\htdocs\yii\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 E:\aHaD_install\xampp5\htdocs\yii\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 E:\aHaD_install\xampp5\htdocs\yii\framework\db\ar\CActiveRecord.php(1455): CActiveRecord->getCommandBuilder()
+#7 E:\aHaD_install\xampp5\htdocs\212\protected\components\Controller.php(38): CActiveRecord->find()
+#8 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(281): Controller->init()
+#9 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/212/
+---
+2020/04/01 20:03:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in E:\aHaD_install\xampp5\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 E:\aHaD_install\xampp5\htdocs\yii\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 E:\aHaD_install\xampp5\htdocs\yii\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 E:\aHaD_install\xampp5\htdocs\yii\framework\db\ar\CActiveRecord.php(1455): CActiveRecord->getCommandBuilder()
+#7 E:\aHaD_install\xampp5\htdocs\212\protected\components\Controller.php(38): CActiveRecord->find()
+#8 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(281): Controller->init()
+#9 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/212/
+---
+2020/04/01 20:03:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in E:\aHaD_install\xampp5\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 E:\aHaD_install\xampp5\htdocs\yii\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 E:\aHaD_install\xampp5\htdocs\yii\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 E:\aHaD_install\xampp5\htdocs\yii\framework\db\ar\CActiveRecord.php(1455): CActiveRecord->getCommandBuilder()
+#7 E:\aHaD_install\xampp5\htdocs\212\protected\components\Controller.php(38): CActiveRecord->find()
+#8 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(281): Controller->init()
+#9 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/212/
+---
+2020/04/01 20:04:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/logo/1537443969757.png".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/logo/153...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/upload/logo/1537443969757.png
+HTTP_REFERER=http://localhost:8080/212/
+---
+2020/04/01 20:04:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/logo/1537443969757.png".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/logo/153...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/upload/logo/1537443969757.png
+HTTP_REFERER=http://localhost:8080/212/
+---
+2020/04/01 20:05:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/logo/1537443969757.png".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/logo/153...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/upload/logo/1537443969757.png
+HTTP_REFERER=http://localhost:8080/212/
+---
+2020/04/01 20:05:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/logo/1537443969757.png".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/logo/153...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/upload/logo/1537443969757.png
+HTTP_REFERER=http://localhost:8080/212/
+---
+2020/04/01 20:05:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/logo/1537443969757.png".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/logo/153...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/upload/logo/1537443969757.png
+HTTP_REFERER=http://localhost:8080/212/
+---
+2020/04/01 20:05:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/logo/1537443969757.png".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/logo/153...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/upload/logo/1537443969757.png
+HTTP_REFERER=http://localhost:8080/212/
+---
+2020/04/01 20:05:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/212/assets/extras/grabbing.png".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/212/asse...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/themes/212/assets/extras/grabbing.png
+HTTP_REFERER=http://localhost:8080/212/themes/212/assets/extras/owl.carousel.css
+---
+2020/04/01 20:06:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/logo/1537443969757.png".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/logo/153...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/upload/logo/1537443969757.png
+HTTP_REFERER=http://localhost:8080/212/products/hardware-solution-packages.html
+---
+2020/04/01 20:06:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/logo/1537443969757.png".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/logo/153...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/upload/logo/1537443969757.png
+HTTP_REFERER=http://localhost:8080/212/products/hardware-solution-packages.html
+---
+2020/04/01 20:07:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/logo/153744400649.png".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/logo/153...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/upload/logo/153744400649.png
+HTTP_REFERER=http://localhost:8080/212/site/login.html
+---
+2020/04/01 20:07:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pages/img/login/bg1.jpg".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/pages/im...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/assets/pages/img/login/bg1.jpg
+HTTP_REFERER=http://localhost:8080/212/site/login.html
+---
+2020/04/01 20:07:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CController.php(270): CController->missingAction('view')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#2 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#5 {main}
+REQUEST_URI=/212/site/favicon.ico
+---
+2020/04/01 20:07:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pages/img/login/bg3.jpg".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/pages/im...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/assets/pages/img/login/bg3.jpg
+HTTP_REFERER=http://localhost:8080/212/site/login.html
+---
+2020/04/01 20:07:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/pages/img/login/bg2.jpg".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/pages/im...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/assets/pages/img/login/bg2.jpg
+HTTP_REFERER=http://localhost:8080/212/site/login.html
+---
+2020/04/01 20:08:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/logo/153744400649.png".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/logo/153...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/upload/logo/153744400649.png
+HTTP_REFERER=http://localhost:8080/212/admin
+---
+2020/04/01 20:08:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/favicon.ico
+---
+2020/04/01 20:08:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/logo/153744400649.png".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/logo/153...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/upload/logo/153744400649.png
+HTTP_REFERER=http://localhost:8080/212/admin/order/index.html
+---
+2020/04/01 20:08:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d62f8570/jui/js/jquery.ui.datepicker-en.js".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d62f8570...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/assets/d62f8570/jui/js/jquery.ui.datepicker-en.js
+HTTP_REFERER=http://localhost:8080/212/admin/order/index.html
+---
+2020/04/01 20:08:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/logo/153744400649.png".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/logo/153...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/upload/logo/153744400649.png
+HTTP_REFERER=http://localhost:8080/212/admin/order/index.html
+---
+2020/04/01 20:08:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d62f8570/jui/js/jquery.ui.datepicker-en.js".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d62f8570...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/assets/d62f8570/jui/js/jquery.ui.datepicker-en.js
+HTTP_REFERER=http://localhost:8080/212/admin/order/index.html
+---
+2020/04/01 20:08:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "favicon.ico".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CController.php(270): CController->missingAction('favicon.ico')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('favicon.ico')
+#2 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/order/fav...')
+#3 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#5 {main}
+REQUEST_URI=/212/admin/order/favicon.ico
+---
+2020/04/01 20:08:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/logo/153744400649.png".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/logo/153...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/upload/logo/153744400649.png
+HTTP_REFERER=http://localhost:8080/212/admin/products.html
+---
+2020/04/01 20:08:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/logo/153744400649.png".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/logo/153...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/upload/logo/153744400649.png
+HTTP_REFERER=http://localhost:8080/212/admin/products.html
+---
+2020/04/01 20:08:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/favicon.ico".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/favicon.i...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/admin/favicon.ico
+---
+2020/04/01 20:09:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/logo/1537443969757.png".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/logo/153...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/upload/logo/1537443969757.png
+HTTP_REFERER=http://localhost:8080/212/
+---
+2020/04/01 20:09:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/logo/1537443969757.png".' in E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\aHaD_install\xampp5\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('upload/logo/153...')
+#1 E:\aHaD_install\xampp5\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\aHaD_install\xampp5\htdocs\212\index.php(33): CApplication->run()
+#3 {main}
+REQUEST_URI=/212/upload/logo/1537443969757.png
+HTTP_REFERER=http://localhost:8080/212/
+---

@@ -1,0 +1,175 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 19, 2016, 10:28:11 PM
+    Author     : rajib
+*/
+.fieldset1{
+  width: 100%;
+  display: inline-block;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+.fieldset1 label{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.fieldset1 label:first-child{
+  margin-top: 0px;
+}
+
+.fieldset2{
+  width: 100%;
+  display: inline-block;
+  background-color: #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+.fieldset2 label{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.fieldset2 label:first-child{
+  margin-top: 0px;
+}
+
+.fieldset3{
+  width: 100%;
+  display: inline-block;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+.fieldset3 label{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.fieldset3 label:first-child{
+  margin-top: 0px;
+}
+
+.fieldset4{
+  width: 100%;
+  display: inline-block;
+  background-color: #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+.fieldset4 label{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.fieldset4 label:first-child{
+  margin-top: 0px;
+}
+
+.fieldset5{
+  width: 100%;
+  display: inline-block;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+.fieldset5 label{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.fieldset5 label:first-child{
+  margin-top: 0px;
+}
+
+.fieldset6{
+  width: 100%;
+  display: inline-block;
+  background-color: #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+.fieldset6 label{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.fieldset6 label:first-child{
+  margin-top: 0px;
+}
+.fieldset7{
+  width: 100%;
+  display: inline-block;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+.fieldset7 label{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.fieldset7 label:first-child{
+  margin-top: 0px;
+}
+.template-checkbox label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+.template-checkbox label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+.template-checkbox label > input:checked + img{
+  border:2px solid green;
+}
+.page-header .page-header-top .page-logo .logo-default {
+    margin: 13px 0 0!important;
+}
+
+.errorMessage{
+    color: red;
+}
+
+.page-action-buttons{
+    display: inline-block;
+    float: right;
+    padding: 19px 0;
+}
+
+.control-label .required, .form-group .required{
+    color: #333!important;
+    font-size: 14px!important;
+    font-weight: 400;
+    padding-left: 2px!important;
+}
+
+.select2-selection{
+    height: 30px!important;
+    padding: 5px 10px!important;
+}
+.select2-selection span{
+    font-size: 12px!important;
+}
+
+.form-body{
+	display:inline-block;
+	width:100%;
+}
+
+.page-wrapper .full-width .page-wrapper-row {
+    width: 100%;
+    display: table!important;
+}
